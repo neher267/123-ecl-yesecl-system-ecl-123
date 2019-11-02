@@ -80,21 +80,21 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .fa-icon{
-    margin-right: 3px;
-    color: green;
+	margin-right: 3px;
+	color: green;
 }
 
 .page-title{
-    padding: 10px;
-    margin-bottom: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
     border-bottom: 2px solid #e6e9ed;
-    text-align: center;    
+	text-align: center;    
     color: green;
     font-size: 25px;
 }
 
 .control-label{
-    padding-top: 0px;
+	padding-top: 0px;
 }
 
 .service-section{
@@ -185,25 +185,25 @@ background-color: #E5DBAC;
 }
 
 .boxn{
-    height: 240px;
-    padding-top: 30px;
+	height: 240px;
+	padding-top: 30px;
 }
 
 .l-half{
-    float: left;
-    width: 45%
+	float: left;
+	width: 45%
 }
 .r-half{
-    float: left;
-    width: 45%
+	float: left;
+	width: 45%
 }
 
 .circle{
-    height: 180px;
-    width: 180px;   
-    background-color: #f15c87;
-    border-radius: 50%;
-    float: right;
+	height: 180px;
+	width: 180px;	
+	background-color: #f15c87;
+	border-radius: 50%;
+	float: right;
     -webkit-animation-name: backgroung; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: backgroung;
@@ -212,30 +212,30 @@ background-color: #E5DBAC;
 }
 
 .circle:hover {
-    animation-play-state: paused;
+	animation-play-state: paused;
 }
 
 .service-img{
-    width: 100%; 
-    height: 190px; 
-    vertical-align: middle; 
-    opacity: 0.75;
+	width: 100%; 
+	height: 190px; 
+	vertical-align: middle; 
+	opacity: 0.75;
 }
 .service-img:hover{
-    opacity: 1.0;
+	opacity: 1.0;
 }
 
 .boxn-text{
-    text-align: center;
-    position: relative;
-    top: 40%;
+	text-align: center;
+	position: relative;
+	top: 40%;
     font-weight: bold;
     font-size: 20px;
     color: white;
 }
 
 .boxn-icon {
-    font-size: 75px;
+	font-size: 75px;
     color: white;
     position: relative;
     top: 29%;
@@ -243,17 +243,17 @@ background-color: #E5DBAC;
 }
 
 .boxn-content{
-    text-align: left;
-    padding-top: 13%;
-    padding-left: 15px;
-    color: #333;
+	text-align: left;
+	padding-top: 13%;
+	padding-left: 15px;
+	color: #333;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes backgroung {
     0%   {background-color: #f15c87;}
     33%   {background-color: #6ff4be;}
-    66%   {background-color: #106945;}
+	66%   {background-color: #106945;}
     100%  {background-color: #f15c87;}
 }
 
@@ -261,7 +261,7 @@ background-color: #E5DBAC;
 @keyframes backgroung {
     0%   {background-color: #f15c87;}
     33%   {background-color: #6ff4be;}
-    66%   {background-color: #106945;}
+	66%   {background-color: #106945;}
     100%  {background-color: #f15c87;}
 }
 

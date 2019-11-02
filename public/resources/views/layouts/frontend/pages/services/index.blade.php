@@ -17,7 +17,7 @@
     <div class="row">
         <div class="col-md-12">
             <h2 class="title-section mb-0 mt-0 text-center">
-                <span class="details-heading">Our Services 11</span>
+                <span class="details-heading">Our Services</span>
             </h2>
             <div class="divider mb-20 mt-25">&nbsp;</div>
         </div>
@@ -29,12 +29,12 @@
             <div class="service-item icon-center opacity">
                 <div class="counter-block border-none" style="height: 300px">
                     <div class="counter-icon">
-                        <img src="{{asset('public/images/Services/services.png)}}" style="height: 60px; width: 60px; border-radius: 50%">
+                        <img src="{{asset('public/'.$service->image)}}" style="height: 60px; width: 60px; border-radius: 50%">
                     </div>
 
                     <div class="count-divider">&nbsp;</div>                    
                     <h3 class="details-title" style="min-height: 50px; font-size: 18px">
-                        <a href="{{route('frontend.services.show', $service)}}">{{$service->name}}mm</a>
+                        <a href="{{route('frontend.services.show', $service)}}">{{$service->name}}</a>
                     </h3>
                     <p class="details-fonts" style="text-align: center;">
                         <?php 
