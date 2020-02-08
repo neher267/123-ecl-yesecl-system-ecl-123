@@ -28,15 +28,15 @@
                  
         </li>
 
-        <li><a href="#" class="mn-has-sub nav-style" style="color: #f15c87;">Training</a>
+        <!-- <li><a href="#" class="mn-has-sub nav-style" style="color: #f15c87;">Training</a>
             <ul class="mn-sub">
                 <li><a href="{{url('training')}}" class="mn-has-sub nav-style">About PLC</a>    
                 <li><a href="{{url('courses')}}" class="mn-has-sub nav-style">Courses</a>    
                 <li><a href="{{url('course-registration')}}" class="mn-has-sub nav-style">Courses Registration</a>             
                          
-                <!-- <li><a href="http://student-protal.test" target="_blank" class="nav-style">Student Portal</a> </li>              -->
+                <li><a href="http://student-protal.test" target="_blank" class="nav-style">Student Portal</a> </li>
             </ul>
-        </li>
+        </li> -->
         
         <li><a href="{{url('partners')}}" class="nav-style">Partners</a> </li>
         <li><a href="{{url('about-us')}}" class="nav-style">About Us</a> </li>
